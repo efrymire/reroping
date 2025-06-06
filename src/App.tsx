@@ -1,6 +1,7 @@
 
 import './App.css'
 import reropingLogo from './assets/reroping.svg'
+import EmailForm from './EmailForm'
 
 function App() {
 
@@ -13,13 +14,7 @@ function App() {
         </div>
         <div>Designed and curated by Ana Illanes in collaboration with women artisans in Chile. Handwoven using reclaimed fishing rope.
         </div>
-        {/* <div className='email-signup'>
-          <div>Want to learn more?</div>
-          <div className='email-signup-input'>
-            <input type="email" placeholder="Keep me in the weave" />
-            <button>Submit</button>
-          </div>
-        </div> */}
+        <EmailForm/>
       </div>
     </div>
   )
