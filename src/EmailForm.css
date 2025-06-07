@@ -12,5 +12,6 @@
   padding: 0.5rem;
   border-radius: 5px;
   background-color: transparent;
-  color: #010101
+  color: #010101;
+  border: 1px solid #010101
 }
