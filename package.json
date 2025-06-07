@@ -7,8 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "deploy": "git push origin :gh-pages && git subtree push --prefix dist origin gh-pages"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@formspree/react": "^3.0.0",
